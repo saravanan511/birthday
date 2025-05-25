@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Start screen to ensure music plays -->
+  <div id="start-screen">
+    <h1>🎉 Tap to Begin 🎉</h1>
+    <button id="start-btn">Start the Surprise</button>
+  </div>
+
+  <audio id="bg-music" src="assets\Hey Sinamika - Thozhi Video.mp3" loop></audio>
+
+  <div class="main-content hidden" id="main-content">
+    <div class="slideshow-container" id="slideshow"></div>
+
+    <div id="cake-section" class="hidden">
+      <img id="cake-img" src="assets\FGFDTCAKE588-260x260.webp" alt="Birthday Cake" />
+      <h1 class="birthday-text">🎉 Happy Birthday! 🎂</h1>
+    </div>
+
+    <div id="letter-section" class="hidden">
+      <h2>To My Dearest Friend</h2>
+      <p id="friend-letter"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
